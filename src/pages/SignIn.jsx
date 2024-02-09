@@ -64,7 +64,7 @@ const SignIn = () => {
             </div>
             <div className="flex justify-between whitespace-nowrap text-sm sm:text-lg mb-6">
               <p>
-                Don't have an account?{" "}
+                Don't have an account?
                 <Link
                   to="/sign-up"
                   className="text-red-600 hover:text-red-800 transition duration-200 ease-in-out ml-1"
@@ -87,7 +87,7 @@ const SignIn = () => {
             className="w-full bg-blue-500 py-3 px-7 text-white text-sm font-medium uppercase rounded shadow-md hover:bg-blue-700 transition duration-150 ease-in-out hover:shadow-lg active:bg-blue-900"
             type="submit"
           >
-            Submit
+            Sign In
           </button>
 
           <div className="flex items-center my-4 before:border-t before:flex-1 before:border-gray-300 after:border-t after:flex-1 after:border-gray-300">
